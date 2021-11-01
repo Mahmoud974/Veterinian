@@ -1,0 +1,54 @@
+.accceuil {
+  @extend %flexbox;
+  padding-top: 120px;
+  background-color: $colorYellow;
+  height: 899px;
+  .textBlocButton {
+    margin-top: 90px;
+    .myText {
+      font-size: 30px;
+    }
+    .btnDisplay {
+      button {
+        padding: 15px 80px;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .dogImg {
+    padding-top: -100px;
+    img {
+      height: 720px;
+      width: 500px;
+    }
+  }
+}
+
+//BlocDeux
+.accceuilWhite {
+  @extend %flexbox;
+  padding-top: 120px;
+  background-color: #fff;
+  height: 799px;
+  .textBlocButton {
+    margin-top: 90px;
+    .myText {
+      font-size: 30px;
+    }
+    .btnDisplay {
+      button {
+        padding: 15px 80px;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .dogImg {
+    padding-top: -100px;
+    img {
+      height: 520px;
+      width: 520px;
+    }
+  }
+}

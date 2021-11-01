@@ -1,0 +1,21 @@
+.myKnow {
+  height: 900px;
+  background: $colorYellow;
+
+  .myTextTwo {
+    font-size: 30px;
+  }
+
+  .blocImgProps {
+    list-style: none;
+    li {
+      h3 {
+        padding-top: 32px;
+        font-size: 35px;
+      }
+      .textUnderImg {
+        font-size: 20px;
+      }
+    }
+  }
+}
