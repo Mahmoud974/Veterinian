@@ -1,6 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const BlocAnimate = () => {
+  // useEffect(() => {
+  //   let compteur = 0;
+  //   let happy = document.querySelector(
+  //     "#root > div.animateMyBg > div > ul > li:nth-child(1) > h5:nth-child(2)"
+  //   );
+  //   const compte = () => {
+  //     compteur++;
+  //     happy.textContent = compteur;
+  //   };
+  //   setInterval(compte, 2);
+  // }, []);
+
   return (
     <div
       className="animateMyBg"

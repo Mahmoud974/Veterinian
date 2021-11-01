@@ -11,7 +11,9 @@ const Navbar = () => {
           <ul className="d-flex py-4 fw-bolder ">
             <li>Home</li>
             <li>About</li>
+
             <li>Service</li>
+
             <li>Contact</li>
           </ul>
         </div>

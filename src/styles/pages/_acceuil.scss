@@ -1,8 +1,10 @@
 .accceuil {
   @extend %flexbox;
   padding-top: 120px;
+
   background-color: $colorYellow;
   height: 899px;
+
   .textBlocButton {
     margin-top: 90px;
     .myText {

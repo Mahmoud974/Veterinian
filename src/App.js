@@ -8,9 +8,10 @@ import BlocSix from "./pages/BlocSix";
 import BlocSept from "./pages/BlocSept";
 import Footer from "./pages/Footer";
 import BlocAnimate from "./pages/BlocAnimate";
-
+import "aos/";
+import { AnimatePresence } from "framer-motion";
 const App = () => (
-  <>
+  <AnimatePresence>
     <Acceuil />
     <BlocDeux />
     <BlocTrois />
@@ -20,7 +21,7 @@ const App = () => (
     <BlocAnimate />
     <BlocSept />
     <Footer />
-  </>
+  </AnimatePresence>
 );
 
 export default App;
